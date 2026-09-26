@@ -1,0 +1,53 @@
+{
+    "books": [
+        {
+            "type": "Book",
+            "title": "The Hobbit",
+            "author": "J.R.R. Tolkien",
+            "publication_year": 1937,
+            "is_borrowed": false,
+            "borrowed_by": null
+        },
+        {
+            "type": "Novel",
+            "title": "Harry Potter",
+            "author": "J.K. Rowling",
+            "publication_year": 1997,
+            "is_borrowed": false,
+            "borrowed_by": null,
+            "genre": "Fantasy"
+        },
+        {
+            "type": "Novel",
+            "title": "1984",
+            "author": "George Orwell",
+            "publication_year": 1949,
+            "is_borrowed": false,
+            "borrowed_by": null,
+            "genre": "Dystopian"
+        },
+        {
+            "type": "Magazine",
+            "title": "National Geographic",
+            "author": "Various",
+            "publication_year": 2025,
+            "is_borrowed": true,
+            "borrowed_by": "Youssef",
+            "issue": "January"
+        }
+    ],
+    "users": [
+        {
+            "name": "1",
+            "password": "1234",
+            "borrowed_books": []
+        },
+        {
+            "name": "Youssef",
+            "password": "123",
+            "borrowed_books": [
+                "National Geographic"
+            ]
+        }
+    ]
+}
